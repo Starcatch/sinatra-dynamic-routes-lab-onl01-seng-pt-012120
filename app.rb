@@ -12,6 +12,7 @@ class App < Sinatra::Base
     erb :square
   end
   
+  #repeats the phrase n times
   get '/say/:number/:phrase' do
     @number = params[:number].to_i
     @phrase = params[:phrase]
