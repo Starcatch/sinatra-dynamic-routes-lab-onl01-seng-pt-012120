@@ -11,5 +11,7 @@ class App < Sinatra::Base
     @result = params[:number].to_i*params[:number].to_i
     "#{@result}"
   end
+  
+  
 
 end
